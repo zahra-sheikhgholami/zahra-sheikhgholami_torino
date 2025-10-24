@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  font-family: "Yekan-Bakh", "Vazirmatn-FD";
+}
+
+body {
+  background-color: #fff;
+}
+
+@theme {
+  --color-primary: #28a745;
+  --color-primary-200: #d8ffe1;
+  --color-secondary: #10411b;
+  --color-complementry: #459cc6;
+  --color-warning: #d1b900;
+  --color-warning-200: #d1b9004d;
+  --color-dark-900: #282828;
+  --color-dark-800: #2c2c2c;
+  --color-dark-600: rgba(40, 40, 40, 0.7);
+  --color-dark-500: rgba(0, 0, 0, 0.5);
+  --color-dark-200: rgba(0, 0, 0, 0.25);
+  --color-dark-100: rgba(0, 0, 0, 0.15);
+}
+
+.Toastify__toast {
+  font-family: "Yekan-Bakh";
+  font-size: 14px;
+  justify-content: center;
+}
+.Toastify__close-button {
+  left:unset;
+  right: 6px !important;
+}
+
+.font-vazirmatn-fd {
+  font-family: "Vazirmatn-FD";
+}
+
+.scroll-hidden {
+  scrollbar-width: none;
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+#otp-inputs > div {
+  direction: ltr;
+}
+#otp-inputs > div > div > input {
+  width: 40px !important;
+  height: 40px;
+}
+@media screen and (max-width: 320px) {
+  #otp-inputs > div > div > input {
+    width: 35px !important;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  #otp-inputs > div > div > input {
+    width: 58px !important;
+    height: 53px;
+  }
+}
+
+.css-1m8qzkt {
+  top: 0 !important;
+}
+.rmdp-header-values {
+  background-color: var(--color-primary) !important;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  color: #fff !important;
+}
+.green .rmdp-day.rmdp-today span {
+  background-color: #2ecc40 !important;
+  color: #fff !important;
+}
+.rmdp-week .rmdp-day > span {
+  color: #616161 !important;
+}
+.rmdp-week .rmdp-range > span {
+  color: #fff !important;
+}
+.rmdp-ep-arrow  {
+  display: none;
+}
+
+@media screen and (max-width: 330px) {
+  .torino-slider .swiper-cards {
+    width: 150px;
+    height: 180px;
+  }
+}

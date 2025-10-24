@@ -4,9 +4,9 @@
 
 ---
 
-![صفحه اصلی سایت](./public/screenshot/screenshot_1.webp)
-![صفحه جزییات تور](./public/screenshot/screenshot_2.webp)
-![صفحه اصلی سایت در موبایل](./public/screenshot/screenshot_3.webp)
+![صفحه اصلی سایت](./public/images/screenshot/screenshot_1.webp)
+![صفحه جزییات تور](./public/images/screenshot/screenshot_2.webp)
+![صفحه اصلی سایت در موبایل](./public/images/screenshot/screenshot_3.webp)
 
 ---
 
@@ -42,7 +42,7 @@ src/
  ┣ provider/       # Providerها برای React Query. 
  ┗ styles/         # استایل‌ها و تنظیمات مربوط به Tailwind CSS
  ```
- 
+
 ---
 
 ## 🚀 اجرای پروژه
